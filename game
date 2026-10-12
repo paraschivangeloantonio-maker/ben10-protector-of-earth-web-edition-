@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben 10: Protector of Earth - Play Online</title>
+    <style>
+        body {
+            background-color: #0b140d;
+            color: #ffffff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header {
+            background-color: #122216;
+            width: 100%;
+            padding: 15px 0;
+            text-align: center;
+            border-bottom: 3px solid #00ff37;
+            box-shadow: 0 4px 15px rgba(0, 255, 55, 0.2);
+        }
+        h1 { margin: 0; font-size: 26px; color: #00ff37; text-transform: uppercase; letter-spacing: 2px; }
+        
+        #game-screen {
+            width: 854px;
+            height: 480px;
+            max-width: 95%;
+            margin: 35px auto;
+            border: 4px solid #00ff37;
+            border-radius: 12px;
+            background-color: #000000;
+            box-shadow: 0px 0px 25px rgba(0, 255, 55, 0.4);
+            overflow: hidden;
+        }
+        .controls-card {
+            background-color: #122216;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 600px;
+            font-size: 15px;
+            line-height: 1.6;
+            border: 1px solid #00ff37;
+            margin-bottom: 30px;
+        }
+        .key {
+            background: #22442b;
+            padding: 2px 6px;
+            border-radius: 4px;
+            border: 1px solid #00ff37;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Ben 10: Protector of Earth - Browser Edition</h1>
+    </div>
+
+    <div id="game-screen">
+        <div style="width:100%; height:100%;" id="game"></div>
+    </div>
+
+    <div class="controls-card">
+        <h3>👽 Controale Tastatură (Se mapează automat):</h3>
+        <ul>
+            <li><span class="key">Săgeți</span> - Mișcare Personaj</li>
+            <li><span class="key">Z</span> - Atac Ușor / Selectează</li>
+            <li><span class="key">X</span> - Atac Puternic / Înapoi</li>
+            <li><span class="key">C</span> - Săritură</li>
+            <li><span class="key">V</span> - Interacțiune / Omnitrix</li>
+            <li><span class="key">A</span> - Schimbă Extraterestrul (Stânga)</li>
+            <li><span class="key">S</span> - Schimbă Extraterestrul (Dreapta)</li>
+            <li><span class="key">Enter</span> - Start / Meniu Pauză</li>
+        </ul>
+        <p style="text-align:center; margin-top:15px; color: #00ff37;">💡 Puteți conecta și un **Controller de PC/Xbox/PS** prin USB și va funcționa instant!</p>
+    </div>
+
+    <script>
+        EmuJSWidth = "100%";
+        EmuJSHeight = "100%";
+        EmuJSSystem = "psp"; 
+        
+        // Link-ul tău corectat și funcțional:
+        EmuJSGameUrl = "https://dl.dropboxusercontent.com/scl/fi/4wq2l6ngbi85jfbkuqizw/Ben-10-Protector-of-Earth-USA.iso?rlkey=8ak8sf3phvj8heyz8s5osnngg&st=28d4dsm4&dl=0"; 
+
+        EmuJSLang = "en-US";
+        EmuJSFolderUrl = "https://emulatorjs.org";
+    </script>
+    <script src="https://emulatorjs.orgloader.js"></script>
+
+</body>
+</html>
